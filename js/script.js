@@ -11,6 +11,6 @@ function ipva(){
    console.log(calcMes);
 
    let resultFInal = aplicar * calcMes;
-   alert(`Seus ${aplicar} ao final de ${mes} meses renderão ${resultFInal.toFixed(3)} de IPVA`);
+   alert(`Seus ${aplicar} ao final de ${mes} meses renderão R$ ${resultFInal.toFixed(3)}`);
 
 }
