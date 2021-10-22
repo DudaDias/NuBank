@@ -1,6 +1,6 @@
 function ipva(){
 
-   const valBank = 0.0052;
+   const valBank = .0052;
    let aplicar = prompt("Informe o valor que irá aplicar:");
    console.log(aplicar);
 
@@ -11,6 +11,6 @@ function ipva(){
    console.log(calcMes);
 
    let resultFInal = aplicar * calcMes;
-   alert(`Seus ${aplicar} ao final de ${mes} meses renderão R$ ${resultFInal.toFixed(3)}`);
+   alert(`Seus ${aplicar} ao final de ${mes} meses renderão R$ ${resultFInal}`);
 
 }
