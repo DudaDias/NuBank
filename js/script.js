@@ -1,4 +1,4 @@
-function ipva(){
+function calc(){
 
    const valBank = .0052;
    let aplicar = prompt("Informe o valor que irá aplicar:");
